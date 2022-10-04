@@ -1,0 +1,46 @@
+.background-image {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/index-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: #282c3457;
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px;
+  animation: fade-in 2s;
+}
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3em;
+  text-align: justify;
+}
+.intro {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7em;
+  text-align: justify;
+  margin: 4em 0em;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 860px) {
+  .title {
+    text-align: start;
+  }
+}
