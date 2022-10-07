@@ -1,0 +1,22 @@
+.content {
+  padding: 20px;
+  text-align: justify;
+  line-height: 25px;
+}
+.intro {
+  color: grey;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+.country-meta-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+h3 {
+  color: #61dafb;
+  margin: 20px;
+}

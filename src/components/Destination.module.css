@@ -1,0 +1,14 @@
+.destination {
+  margin: 2.5em;
+}
+.description {
+  font-size: 0.7em;
+  font-weight: 600;
+  color: grey;
+  margin: 2em 0px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
