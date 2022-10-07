@@ -1,5 +1,5 @@
 import styles from "./Destination.module.css";
-import GalleryImage from "./GalleryImage";
+import DestinationImage from "./DestinationImage";
 const Destination = (props) => {
   return (
     <div className={styles.destination}>
@@ -7,7 +7,7 @@ const Destination = (props) => {
         <h5>{props.location.siteName}</h5>
         <p className={styles.description}>{props.location.description}</p>
         <div className={styles.center}>
-          <GalleryImage source={props.location.image} />
+          <DestinationImage source={props.location.image} />
         </div>
       </li>
     </div>
