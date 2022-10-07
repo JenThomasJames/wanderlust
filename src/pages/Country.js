@@ -1,12 +1,13 @@
 import styles from "./Country.module.css";
 
-import { useState } from "react";
+import { useState, Fragment } from "react";
 
 import countries from "../data/country-data";
 import Cover from "../components/Cover";
 import CountryMeta from "../components/CountryMeta";
 import Gallery from "../components/Gallery";
 import Destination from "../components/Destination";
+import NotFound from "../components/NotFound";
 
 const Country = () => {
   const countrySelector = () => {
@@ -14,6 +15,8 @@ const Country = () => {
     const index = Math.floor(Math.random() * numberOfCountries);
     return countries[index];
   };
+  const [country, setCountry] = useState(countrySelector());
+  const [isFound, setIsFound] = useState(true);
 
   const searchCountryByName = (country) => {
     const index = countries.findIndex(
@@ -25,12 +28,11 @@ const Country = () => {
 
   const customLocationHandler = (newLocation) => {
     const country = searchCountryByName(newLocation);
-    //show a 404 page as country is not yet in the database
-    if (country === undefined) return;
+    if (country === undefined) {
+      setIsFound(false);
+    }
     setCountry(country);
   };
-
-  const [country, setCountry] = useState(countrySelector());
 
   const changeLocationHandler = () => {
     setCountry(countrySelector());
@@ -38,36 +40,46 @@ const Country = () => {
 
   return (
     <div className="container">
-      <Cover
-        coverImage={country.coverImage}
-        name={country.name}
-        tagline={country.tagline}
-        changeLocationHandler={changeLocationHandler}
-        customLocationHandler={customLocationHandler}
-      />
-      <div className={styles.content}>
-        <div className={styles["intro-container"]}>
-          <p className={styles.intro}>
-            <span className="highlight-text">{country.name}</span>
-            {country.intro}
-          </p>
-        </div>
-        <div className={styles["country-meta-container"]}>
-          <CountryMeta data={country.meta} />
-        </div>
-        <div className={styles["gallery-container"]}>
-          <h3>Gallery</h3>
-          <Gallery images={country.gallery} />
-        </div>
-        <div className={styles["destinations-container"]}>
-          <h3>Top Destinations</h3>
-          <ul>
-            {country.topSites.map((site) => (
-              <Destination location={site} />
-            ))}
-          </ul>
-        </div>
-      </div>
+      {isFound && (
+        <Fragment>
+          <Cover
+            coverImage={country.coverImage}
+            name={country.name}
+            tagline={country.tagline}
+            changeLocationHandler={changeLocationHandler}
+            customLocationHandler={customLocationHandler}
+          />
+          <div className={styles.content}>
+            <div className={styles["intro-container"]}>
+              <p className={styles.intro}>
+                <span className="highlight-text">{country.name}</span>
+                {country.intro}
+              </p>
+            </div>
+            <div className={styles["country-meta-container"]}>
+              <CountryMeta data={country.meta} />
+            </div>
+            <div className={styles["gallery-container"]}>
+              <h3>Gallery</h3>
+              <Gallery images={country.gallery} />
+            </div>
+            <div className={styles["destinations-container"]}>
+              <h3>Top Destinations</h3>
+              <ul>
+                {country.topSites.map((site) => (
+                  <Destination location={site} />
+                ))}
+              </ul>
+            </div>
+          </div>
+        </Fragment>
+      )}
+      {!isFound && (
+        <NotFound
+          locationFound={setIsFound}
+          changeLocationHandler={changeLocationHandler}
+        />
+      )}
     </div>
   );
 };
