@@ -9,7 +9,7 @@ const Navbar = (props) => {
   const locationSubmitHandler = (event) => {
     event.preventDefault();
     let newLocation = locationRef.current.value;
-    props.customLocation(newLocation);
+    props.customLocation(newLocation.trim(" "));
   };
 
   return (

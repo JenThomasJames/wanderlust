@@ -175,11 +175,11 @@ const countries = [
       continent: "Asia",
     },
     gallery: [
-      "https://images.unsplash.com/photo-1528155124528-06c125d81e89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80",
-      "https://images.unsplash.com/photo-1522885147691-06d859633fb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "https://images.unsplash.com/photo-1641913695863-615b2c046864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      "https://images.unsplash.com/photo-1544188623-f16bc97fd5ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "https://images.unsplash.com/photo-1501828230590-042a32fea1ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+      "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://images.unsplash.com/photo-1519802772250-a52a9af0eacb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGluZGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1442570468985-f63ed5de9086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80",
+      "https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      "https://images.unsplash.com/photo-1543198926-22fea2a870dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     ],
     topSites: [
       {
@@ -212,5 +212,221 @@ const countries = [
       },
     ],
   },
+  {
+    id: 5,
+    name: "Germany",
+    tagline:
+      "Americans brag about their assault rifles. Germans brag about their exotic vacations.",
+    coverImage:
+      "https://images.unsplash.com/photo-1506760610100-1af6025cf0c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+    intro:
+      " is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank.",
+    meta: {
+      population: "8.32Cr",
+      capital: "Berlin",
+      language: "German",
+      currency: "Euro",
+      continent: "Europe",
+    },
+    gallery: [
+      "https://images.unsplash.com/photo-1599921841143-819065a55cc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+      "https://images.unsplash.com/photo-1633764598906-a30db6bdf692?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1573559055341-51c1ced2b864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWxsaWFueiUyMGFyZW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1526339737319-1a3db0ff0ac6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=681&q=80",
+      "https://images.unsplash.com/photo-1449452198679-05c7fd30f416?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    ],
+    topSites: [
+      {
+        siteName: "The Black Forest",
+        description:
+          "The beautiful Black Forest with its dark, densely-wooded hills is one of the most visited upland regions in all of Europe. Situated in the southwestern corner of Germany and extending 160 kilometers from Pforzheim in the north to Waldshut on the High Rhine in the south, it's a hiker's heaven.",
+        image:
+          "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      },
+      {
+        siteName: "MarienPlatz",
+        description:
+          "Rügen is the largest and most beautiful of the German Baltic islands. Separated from the rest of Germany by the Strelasund, it's linked to the mainland town of Stralsund by a causeway. The island's beauty stems from its diversity of landscape, including everything from flat farmland and forest-covered hills to expansive sandy beaches, lagoons, and lovely peninsulas.",
+        image:
+          "https://images.unsplash.com/photo-1577462282244-b58c2816d686?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      },
+      {
+        siteName: "The Island of Rügen",
+        description:
+          "Long known within India as the 'go-to' destination for those seeking a great beach holiday, Goa's beautiful western coastline, overlooking the Arabian Sea, has only recently been discovered by tourists from overseas. Goa's more than 60 miles of coastline is home to some of the world's loveliest beaches, each with their own particular appeal.",
+        image:
+          "https://images.unsplash.com/photo-1549445805-840a88c6ebb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      },
+      {
+        siteName: "Reichstag Building",
+        description:
+          "The seat of Germany's government, the Reichstag (Reichstagsgebäude) is once again one of Berlin's most-visited attractions. Constructed in 1894 in Neo-Renaissance style, it infamously burned down in 1933 and remained in ruins until after German reunification, when it was rebuilt in its former glory.",
+        image:
+          "https://images.unsplash.com/photo-1591079751210-718012d90ff7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "Norway",
+    tagline: "We have to find compromises. That’s the way it is in Norway.",
+    coverImage:
+      "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bm9yd2F5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    intro:
+      " is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums. Preserved 9th-century Viking ships are displayed at Oslo’s Viking Ship Museum. Bergen, with colorful wooden houses, is the starting point for cruises to the dramatic Sognefjord. Norway is also known for fishing, hiking and skiing, notably at Lillehammer’s Olympic resort.",
+    meta: {
+      population: "53.8L",
+      capital: "Oslo",
+      language: "Norwegian",
+      currency: "Norwegian Krone",
+      continent: "Europe",
+    },
+    gallery: [
+      "https://images.unsplash.com/photo-1518124880777-cf8c82231ffb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=932&q=80",
+      "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+      "https://images.unsplash.com/photo-1536683402757-75f8d0dfa419?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      "https://images.unsplash.com/photo-1508592931388-95bc7b61033d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1566230724840-0fe03c62884d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    ],
+    topSites: [
+      {
+        siteName: "Oslo",
+        description:
+          "A lot of things are cooking in the Norwegian capital, which was named European Green Capital 2019. A cutting-edge food scene, new and funky neighbourhoods, a fully-packed event calendar, and several brand-new museums and attractions are just a few teasers of what you can expect.",
+        image:
+          "https://images.unsplash.com/photo-1594317568093-b27c52bb8d73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      },
+      {
+        siteName: "Tromsø",
+        description:
+          "The capital of the Arctic, Tromsø, is located right in the middle of Northern Norway. If your bucket list includes northern lights, whale watching, midnight sun, and epic nature adventures, this is where you want to go.",
+        image:
+          "https://images.unsplash.com/photo-1531366599837-ce0c0e17657c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      },
+      {
+        siteName: "Lofoten and Nordland",
+        description:
+          "Staggering peaks, glittering fjords, authentic fishing villages, and picture-perfect beaches. Not to mention northern lights and midnight sun! You have probably seen jaw-dropping images of Lofoten and Vesterålen (the kingdom of whales!) on Instagram. A hot tip is to visit these places outside of the summer season when the crowds are gone.",
+        image:
+          "https://images.unsplash.com/photo-1588263269806-7895da01d3f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      },
+      {
+        siteName: "The Svalbard Islands",
+        description:
+          "Ready to take wildlife to the next level? The Svalbard Islands lie in the middle of the Arctic Ocean, halfway between Norway and the North Pole. Here, you can participate in exotic nature-based activities all year round in a landscape that is both rugged and fragile. Try your hand at dog sledging, go ice caving, join a snowmobile safari, or hunt for the northern lights. In addition to a few thousand polar bears, the islands are home to almost 3,000 humans.",
+        image:
+          "https://images.unsplash.com/photo-1629206881868-cb28914973d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1192&q=80",
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "Maldives",
+    tagline: "It’s so beautiful that it looks fake!",
+    coverImage:
+      "https://images.unsplash.com/photo-1540202404-a2f29016b523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80",
+    intro:
+      ", officially the Republic of Maldives, is an archipelagic state located in Southern Asia, situated in the Indian Ocean. It lies southwest of Sri Lanka and India, about 750 kilometres from the Asian continent's mainland.",
+    meta: {
+      population: "5.41L",
+      capital: "Malé",
+      language: "Dhivehi",
+      currency: "Maldivian rufiyaa",
+      continent: "Asia",
+    },
+    gallery: [
+      "https://images.unsplash.com/photo-1505881402582-c5bc11054f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+      "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG1hbGRpdmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1586500038052-b831efc02314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fG1hbGRpdmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    ],
+    topSites: [
+      {
+        siteName: "Malé Atoll",
+        description:
+          "ocated on the southern edge of Kaafu Atoll, the North Malé Atoll is the largest city and the most popular destination among the best places to visit in Maldives. It is among the top Maldives tourism places. It used to be called Mahal for being the abode of the Royal Dynasties and is now famous as the Kings Island. Male has a tropical monsoon climate with rains occurring through most months in the year. The best thing about Male is its consistently moderate temperature, round the year.",
+        image:
+          "https://images.unsplash.com/photo-1543731068-7e0f5beff43a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      },
+      {
+        siteName: "Sun Island",
+        description:
+          "Also famous as the Sun Island, Nalaguraidhoo Island in South Ari Atoll is among the top Maldives points of interest. It is adorned with some stunning beaches, beautiful tropical flowers, and lavish greenery that pulls a great number of tourists wanting to bask in the lap of nature. With its extremely charming blue waters, sparkling beaches and fabulous resorts, the island guarantees immense joy to its guests. Given its serenity and beauty, it is among the most perfect places to visit in Maldives for couples and honeymooners.",
+        image:
+          "https://images.unsplash.com/photo-1619897917857-f80c6adcf760?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      },
+      {
+        siteName: "Banana Reef",
+        description:
+          "Banana Reef is globally renowned for being one of the best diving sites in the world which adds it to the list of top Maldives points of interest. It was, in fact, the very first diving spot in Maldives to get recognition for licensed diving and training. Shaped like a banana, the reef is choc-a-block with exuberant marine life, fantastic corals, amazing cliffs, overhangs, and caves. And thanks to the myriad adventure activities here, it is one of the favorite places to visit in Maldives for the adventure junkies.",
+        image:
+          "https://images.unsplash.com/photo-1540202403-b7abd6747a18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      },
+      {
+        siteName: "Artificial Beach",
+        description:
+          "Situated in North Mal- Atoll, this beach is what its name tells you – artificial. It is the favorite haunt of the swimming enthusiasts among the top places to visit in Maldives. The Artificial Beach is an open area and has certain restrictions for clothing as per the local law. The beach also hosts several carnivals, water sports, and peaceful walks, making this the best place to go in Maldives for youngsters. The evenings here turn beautiful as music groups gather to jam and perform.",
+        image:
+          "https://images.unsplash.com/photo-1502680390469-be75c86b636f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      },
+    ],
+  },
 ];
+
+// {
+//   id: 6,
+//   name: "",
+//   tagline:
+//     "",
+//   coverImage:
+//     "",
+//   intro:
+//     " ",
+//   meta: {
+//     population: "",
+//     capital: "",
+//     language: "",
+//     currency: "",
+//     continent: "",
+//   },
+//   gallery: [
+//     "",
+//     "",
+//     "",
+//     "",
+//     "",
+//   ],
+//   topSites: [
+//     {
+//       siteName: "",
+//       description:
+//         "",
+//       image:
+//         "",
+//     },
+//     {
+//       siteName: "",
+//       description:
+//         "",
+//       image:
+//         "",
+//     },
+//     {
+//       siteName: "",
+//       description:
+//         "",
+//       image:
+//         "",
+//     },
+//     {
+//       siteName: "",
+//       description:
+//         "",
+//       image:
+//         "",
+//     },
+//   ],
+// },
+
 export default countries;
